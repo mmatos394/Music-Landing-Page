@@ -1,0 +1,68 @@
+body {
+  background: radial-gradient(
+    circle at 0.7% 2.7%,
+    rgb(237, 220, 140) 0%,
+    rgb(241, 121, 121) 90%
+  );
+}
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+img {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 100px 150px;
+}
+p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 70%;
+  margin: 0 auto;
+  line-height: 30px;
+  padding-top: 2%;
+}
+a {
+  display: block;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  width: 100%;
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+  line-height: 30px;
+  margin-top: 1%;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  font-family: sans-serif;
+  border-radius: 30px;
+  padding: 10px;
+  color: black;
+  background-color: transparent;
+  line-height: 30px;
+  margin-top: 0.5%;
+  padding: 5px;
+  border: 2px solid black;
+}
+button:hover {
+  cursor: pointer;
+  font-style: italic;
+}
+.built {
+  text-align: center;
+  font-family: sans-serif;
+  width: 70%;
+  margin: 0 auto;
+  line-height: 30px;
+  padding-top: 0;
+}

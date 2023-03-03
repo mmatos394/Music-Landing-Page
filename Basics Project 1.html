@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Bomba Estéreo Landing Page</title>
+  </head>
+  <body>
+    <h1>Bomba Estéreo</h1>
+    <h2>🐚 Tropical sounds from the Colombian coast 🌴</h2>
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/065/450/original/download.jpeg?1675329858"
+      alt=""
+    />
+    <p>
+      Bomba Estéreo's psychedelic mix of electro cumbia is infused with the
+      sights, sounds and smells of the tropical paradise of the Colombian
+      caribbean coast. The band was founded by Simón Mejia and is fronted by
+      Santa Marta-born singer Li Saumet. Their biggest hits include Somos Dos,
+      Fiesta, Soy Yo and Ojitos Lindos; the recent collaboration with
+      international superstar, Bad Bunny.
+    </p>
+    <a href="https://www.bombaestereo.com/">Visit their website</a>
+    <button>🎵 Listen here</button>
+    <p class="built">This page was built by Melissa Matos.</p>
+    <script>
+      function listenHere() {
+        let name = prompt("What is your name?");
+        name = name.toLowerCase();
+        let Spotify = prompt("Do you use Spotify?");
+        Spotify = Spotify.toLowerCase();
+
+        if (Spotify === "yes") {
+          alert("Listen to Bomba Estéreo on Spotify today!");
+        } else {
+          alert("Download Spotify to listen to Bomba Estéreo today!");
+        }
+      }
+      let button = document.querySelector("button");
+      button.addEventListener("click", listenHere);
+    </script>
+  </body>
+</html>
