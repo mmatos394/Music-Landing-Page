@@ -61,8 +61,8 @@ button:hover {
 .built {
   text-align: center;
   font-family: sans-serif;
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
-  line-height: 30px;
-  padding-top: 0;
+  line-height: 20px;
+  font-size: small;
 }
